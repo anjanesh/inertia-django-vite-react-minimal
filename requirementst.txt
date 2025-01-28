@@ -1,0 +1,5 @@
+Django==5.1.5
+django-vite==3.0.6
+inertia-django==1.1.0
+pip-autoremove==0.10.0
+whitenoise==6.8.2

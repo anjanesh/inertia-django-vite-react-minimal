@@ -1,0 +1,36 @@
+{
+  "beautify.language": {
+    "html": ["django-html"]
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/*.html": "html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "[django-html]": {
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
