@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-n8*2-o&pq&%vbb8!8cn9q_#yu4q()e%qv@1c1dh&-8gs%mq^)v
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+APP_NAME = "Django with Inertia using React"
 ALLOWED_HOSTS = ["*"]
 
 
@@ -55,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'inertia.middleware.InertiaMiddleware',
+    'app.middleware.mInertia.InertiaShareMiddleware',
 ]
 
 ROOT_URLCONF = 'inertia_django_vite_react_minimal.urls'
