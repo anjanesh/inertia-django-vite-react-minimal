@@ -21,7 +21,7 @@ A minimal, working template for Inertia + Django + Vite + React.
    npx degit https://github.com/anjanesh/inertia-django-vite-react-minimal
    ```
 
-   b. Or, create a repo based on this template via the [GitHub template generator](https://github.com/mujahidfa/inertia-django-vite-vue-minimal/generate).
+   b. Or, create a repo based on this template via the [GitHub template generator](https://github.com/anjanesh/inertia-django-vite-react-minimal/generate).
 
 2. Install required Python packages.
 
